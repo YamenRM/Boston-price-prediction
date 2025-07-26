@@ -9,8 +9,6 @@ model = joblib.load('App/Price_model.pkl')
 # Set the title of the app
 st.title("Boston House Price Prediction")
 
-# logo for the app
-st.image("logo.jpg", width=200)
 
 st.write("Adjust the features and click 'Predict'")
 
