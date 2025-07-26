@@ -4,7 +4,7 @@ import joblib
 
 
 # Load the model
-model = joblib.load('Price_model.pkl')
+model = joblib.load('App/Price_model.pkl')
 
 # Set the title of the app
 st.title("Boston House Price Prediction")
