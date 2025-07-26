@@ -1,6 +1,9 @@
 # 🏠 Boston Housing Price Prediction
 This project predicts housing prices in Boston using machine learning techniques. It includes data preprocessing, feature engineering with polynomial features, model training with LassoCV, and deployment via a Streamlit web app.
 
+# 🌐 Try it Live
+ - 🔗 App: https://apppyline3inmoduleimportjoblib-m9f6eaef9mhkpyu7rcm93n.streamlit.app/
+
 # 📊 Dataset :-
 
 Link : https://www.kaggle.com/datasets/vikrishnan/boston-house-prices
@@ -56,6 +59,23 @@ MEDV :	Median value of owner-occupied homes (target)
  - Serialization	: joblib
 
  - App Deployment : streamlit
+
+# 🧑‍💻 Local Setup :-
+If you want to run it locally instead of the cloud:
+
+  **Clone the repository**
+  
+    git clone https://github.com/YamenRM/Boston-price-prediction.git
+    cd Boston-price-prediction
+
+ **Install dependencies**
+ 
+     pip install -r requirements.txt
+
+ **Run the app**
+ 
+      streamlit run App/app.py
+
 
 # 🧪 Model Performance :-
 
